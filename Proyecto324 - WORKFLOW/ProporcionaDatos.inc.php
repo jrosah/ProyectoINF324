@@ -34,19 +34,19 @@
             </div>
             
         </div>
-        <!-- <div class="card">
-            <div class="card-header bg-info ">
-                <center>
-                    <h1>Aprobación Curso Prefacultativo</h1>
-                    <hr>
-                </center>
-            </div>
-            <div class="card-body text-center">
-                <h3 class="text-success">Usted aprobo el curso Prefacultativo!</h3>
-                <img src="./img/1.jpg" alt="" style="width: 360px;">
+        <div class="w-50 mt-5 border border-dark p-3">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" value="<?php echo $nombre;?>">
             </div>
 
-        </div> -->
+            <div class="mb-3">
+                <label for="paterno" class="form-label">Apellido Paterno:</label>
+                <input type="text" class="form-control" id="paterno" name="paterno" value="<?php echo $paterno;?>">
+            </div>
+        </div>
+        
+
 
     </div>
 

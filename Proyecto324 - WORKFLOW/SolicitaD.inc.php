@@ -34,39 +34,6 @@
             </div>
             
         </div>
-        <div class="container mt-5 w-50 border px-0">
-            <table class="table border-dark">
-                <thead class="table-primary">
-                    <tr>
-                        <th scope="col">Documentos</th>
-                        <th scope="col">Opciones</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Nombre o institucion de la  Cuenta:</td>
-                        <td>
-                            <select name="nombre" style="height: 35px; width: 100px;" class="form-select">    
-                                <option value="Si">Si</option>    
-                                <option value="No">No</option>    
-                            </select><br>   
-                        </td>
-                    </tr>
-                   
-
-                    <tr>
-                        <td>Nro cuenta</td>
-                        <td>
-                            <select name="nrocuenta" style="height: 35px; width: 100px;" class="form-select">    
-                                <option value="Si">Si</option>    
-                                <option value="No">No</option>    
-                            </select><br>   
-                        </td>
-                    </tr>
-
-                </tbody>
-            </table>
-        </div>
     </div>
 
 
