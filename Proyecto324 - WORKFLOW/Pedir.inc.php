@@ -17,9 +17,9 @@
         <hr>
     </div> -->
 
-    <div class="container bg-white px-0 pb-5 shadow-lg">
+    <div class="container bg-white px-0 pb-5 shadow-lg" style="background-color:#9FA8DA!important;">
         
-        <div class="d-flex justify-content-between align-items-center bg-primary px-5">
+        <div class="d-flex justify-content-between align-items-center bg-primary px-5" style="background-color:#052453!important;">
             <div class="">
                 <h1 class="text-white fw-bold">BANCO FASSIL</h1>
             </div>
@@ -36,7 +36,7 @@
         </div>
 
         <div class="container mt-5 w-50 border px-0">
-            <table class="table border-dark">
+            <table class="table border-dark bg-white">
                 <thead class="table-primary">
                     <tr>
                         <th scope="col">Documentos</th>

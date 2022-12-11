@@ -17,9 +17,9 @@
         <hr>
     </div> -->
 
-    <div class="container bg-white px-0 pb-5 shadow-lg">
+    <div class="container bg-white px-0 pb-5 shadow-lg" style="background-color:#9575CD!important;">
         
-        <div class="d-flex justify-content-between align-items-center bg-primary px-5">
+        <div class="d-flex justify-content-between align-items-center px-5" style="background-color:#311B92;">
             <div class="">
                 <h1 class="text-white fw-bold">BANCO FASSIL</h1>
             </div>
@@ -28,25 +28,12 @@
         </div>
 
         <div class="px-5 mt-5 d-flex justify-content-center flex-column align-items-center">
-            <div class="shadow px-5 pb-5">
+            <div class="shadow px-5 pb-5 bg-light">
                 <h2 class="fw-bold text-uppercase fs-1 mb-4 text-center mt-4">RECOGE TICKET</h2>
                 <img src="./img/ticket.jpg" style="max-width:600px;height:300px;background-size: cover;" class="shadow"/>
             </div>
             
-        </div>
-        <!-- <div class="card">
-            <div class="card-header bg-info ">
-                <center>
-                    <h1>Aprobación Curso Prefacultativo</h1>
-                    <hr>
-                </center>
-            </div>
-            <div class="card-body text-center">
-                <h3 class="text-success">Usted aprobo el curso Prefacultativo!</h3>
-                <img src="./img/1.jpg" alt="" style="width: 360px;">
-            </div>
-
-        </div> -->
+        </div>        
 
     </div>
 

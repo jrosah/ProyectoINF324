@@ -17,7 +17,7 @@
         <hr>
     </div> -->
 
-    <div class="container bg-white px-0 pb-5 shadow-lg">
+    <div class="container bg-white px-0 pb-5 shadow-lg" style="background-color:#164B71!important;">
         
         <div class="d-flex justify-content-between align-items-center bg-primary px-5">
             <div class="">

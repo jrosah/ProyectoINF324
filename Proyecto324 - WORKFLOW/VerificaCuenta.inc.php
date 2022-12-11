@@ -17,9 +17,9 @@
         <hr>
     </div> -->
 
-    <div class="container bg-white px-0 pb-5 shadow-lg">
+    <div class="container bg-white px-0 pb-5 shadow-lg" style="background-color:#9575CD!important;">
         
-        <div class="d-flex justify-content-between align-items-center bg-primary px-5">
+        <div class="d-flex justify-content-between align-items-center px-5" style="background-color:#311B92;">
             <div class="">
                 <h1 class="text-white fw-bold">BANCO FASSIL</h1>
             </div>
@@ -28,27 +28,26 @@
         </div>
 
         <div class="px-5 mt-5 d-flex justify-content-center flex-column align-items-center">
-            <div class="shadow px-5 pb-5">
+            <div class="shadow px-5 pb-5 bg-light"  >
                 <h2 class="fw-bold text-uppercase fs-1 mb-4 text-center mt-4">Verifica los datos de la cuenta de deposito
 todo correcto?</h2>
                 <img src="./img/verificaD.png" style="width:600px; height:300px;" class="shadow"/>
-            </div>
             
-        </div>
-        <div class="container-md mt-5 offset-md-0">
-                    <div class="row text-start">
-                        <div class="col-md-12 offset-md-0">
-                            <div class="mb-5">
-                                <label class="form-check-label" for="flexCheckDefault"> Disponer del documento de identificación</label>
+
+            <div class="container-md mt-5 offset-md-0 d-flex justify-content-center" >
+                    <div class="row text-start bg-light">
+                        <div class="col-md-12 offset-md-0 bg-light">
+                            <div class="mb-5 bg-light">
+                                <label class="form-check-label me-5" for="flexCheckDefault"> Disponer del documento de identificación</label>
                                 <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
                                 <label class="btn btn-outline-success float-end" for="btn-check-outlined">Documento Revisado</label><br>
                             </div>
-                            <div class="mb-5">
+                            <div class="mb-5 bg-light">
                                 <label class="form-check-label" for="flexCheckDefault"> Nombre Cuenta</label>
                                 <input type="checkbox" class="btn-check" id="btn-check-outlined1" autocomplete="off">
                                 <label class="btn btn-outline-success float-end" for="btn-check-outlined1">Documento Revisado</label><br>
                             </div>
-                            <div class="mb-5">
+                            <div class="mb-5 bg-light">
                                 <label class="form-check-label" for="flexCheckDefault"> Nro Cuenta </label>
                                 <input type="checkbox" class="btn-check" id="btn-check-outlined2" autocomplete="off">
                                 <label class="btn btn-outline-success float-end" for="btn-check-outlined2">Documento Revisado</label><br>
@@ -58,6 +57,9 @@ todo correcto?</h2>
                     </div>
                     
                 </div>
+        </div>
+        
+        </div>
 
     </div>
 

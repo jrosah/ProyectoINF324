@@ -17,9 +17,9 @@
         <hr>
     </div> -->
 
-    <div class="container bg-white px-0 pb-5 shadow-lg">
+    <div class="container bg-white px-0 pb-5 shadow-lg" style="background-color:#164B71!important;">
         
-        <div class="d-flex justify-content-between align-items-center bg-primary px-5">
+        <div class="d-flex justify-content-between align-items-center bg-primary px-5" style="background-color:#1BABA3!important;">
             <div class="">
                 <h1 class="text-white fw-bold">BANCO FASSIL</h1>
             </div>
@@ -32,47 +32,59 @@
                 <h2 class="fw-bold text-uppercase text-primary fs-1 mb-4 text-center mt-4">Presentación de Documentos y Datos</h2>
                 <img src="./img/F302.JPG" style="max-width:600px;height:300px;background-size: cover;" class="shadow"/>
 
-                <div class="container mt-5 w-50 border px-0">
-            <table class="table border-dark">
-                <thead class="table-primary">
-                    <tr>
-                        <th scope="col">Documentos</th>
-                        <th scope="col">Opciones</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Cedula de identidad (CI):</td>
-                        <td>
-                            <select name="foto" style="height: 35px; width: 100px;" class="form-select">    
-                                <option value="Si">Si</option>    
-                                <option value="No">No</option>    
-                            </select><br>   
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Firma:</td>
-                        <td>
-                            <select name="cnac" style="height: 35px; width: 100px;" class="form-select">    
-                                <option value="Si">Si</option>    
-                                <option value="No">No</option>    
-                            </select><br>   
-                        </td>
-                    </tr>
+                
+                <div class="container-md mt-5   ">
+                    <div class="row text-start">
+                        <div class="col-md-6 offset-md-3">
+                                <fieldset>
+                                    <label for="disabledTextInput" class="form-label">Usuario</label>
+                                    <div class="mb-3">
+                                        <input type="text" id="disabledTextInput" class="form-control" placeholder="" value="<?php echo $usuarioc;?>" name="usuarioc">
+                                    </div>
+                                    <label for="disabledTextInput" class="form-label">Nombre Completo</label>
+                                    <div class="mb-3">
+                                        <input type="text" id="disabledTextInput" class="form-control" placeholder="" value="<?php echo $nombreCompleto;?>" name="nombreCompleto">
+                                    </div>
+                                    <label for="disabledTextInput" class="form-label">CI</label>
+                                    <div class="mb-3">
+                                        <input type="text" id="disabledTextInput" class="form-control" placeholder="" value="<?php echo $ci;?>" name="ci">
+                                    </div>
+                                    <label for="disabledTextInput" class="form-label">Fecha de Nacimiento</label>
+                                    <div class="mb-3">
+                                        <input type="text" id="disabledTextInput" class="form-control" placeholder="" value="<?php echo $fechaNac;?>" name="fechaNac">
+                                    </div>
+                                    <label for="disabledTextInput" class="form-label">Direccion</label>
+                                    <div class="mb-3">
+                                        <input type="text" id="disabledTextInput" class="form-control" placeholder="" value="<?php echo $direccion;?>" name="direccion">
+                                    </div>
+                                    <label for="disabledTextInput" class="form-label">Correo electrónico</label>
+                                    <div class="mb-3">
+                                        <input type="text" id="disabledTextInput" class="form-control" placeholder="" value="<?php echo $correo;?>" name="correo">
+                                    </div>
+                                    <label for="disabledTextInput" class="form-label">Telefono/Celular</label>
+                                    <div class="mb-3">
+                                        <input type="text" id="disabledTextInput" class="form-control" placeholder="" value="<?php echo $telefono;?>" name="telefono">
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="mb-3">
+                                            <label for="disabledTextInput" class="form-label">Cargue los documentos solicitados</label>
 
-                    <tr>
-                        <td>Fotocopia de Cédula de Identidad (anverso/reverso):</td>
-                        <td>
-                            <select name="fci" style="height: 35px; width: 100px;" class="form-select">    
-                                <option value="Si">Si</option>    
-                                <option value="No">No</option>    
-                            </select><br>   
-                        </td>
-                    </tr>
+                                            <label for="formFileMultiple" class="form-label"></label>
+                                            <input class="form-control" type="file" id="formFileMultiple" multiple>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                        </div>
+                    </div>
 
-                </tbody>
-            </table>
-        </div>
+                </div>
+
+
+
+
+
+
+
             </div>
             
         </div>

@@ -17,9 +17,9 @@
         <hr>
     </div> -->
 
-    <div class="container bg-white px-0 pb-5 shadow-lg">
+    <div class="container bg-white px-0 pb-5 shadow-lg" style="background-color:#9575CD!important;">
         
-        <div class="d-flex justify-content-between align-items-center bg-primary px-5">
+        <div class="d-flex justify-content-between align-items-center px-5" style="background-color:#311B92;">
             <div class="">
                 <h1 class="text-white fw-bold">BANCO FASSIL</h1>
             </div>
@@ -28,23 +28,28 @@
         </div>
 
         <div class="px-5 mt-5 d-flex justify-content-center flex-column align-items-center">
-            <div class="shadow px-5 pb-5">
+            <div class="shadow px-5 pb-5 bg-light">
                 <h2 class="fw-bold text-uppercase fs-1 mb-4 text-center mt-4">Proporciona datos de numero de cuenta a depositar</h2>
                 <img src="./img/proporcionaD.png" style="width:600px; height:300px;" class="shadow"/>
-            </div>
-            
-        </div>
-        <div class="w-50 mt-5 border border-dark p-3">
+            <div class="w-50 mt-5 border border-dark p-3">
             <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre:</label>
-                <input type="text" class="form-control" id="nombre" name="nombre" value="<?php echo $nombre;?>">
+                <label for="paterno" class="form-label">Usuario:</label>
+                <input type="text" class="form-control" id="paterno" name="usuarioc" value="<?php echo $usuarioc;?>">
+            </div>
+            <div class="mb-3">
+                <label for="paterno" class="form-label">CI:</label>
+                <input type="text" class="form-control" id="paterno" name="ci" value="<?php echo $ci;?>">
+            </div>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre Completo:</label>
+                <input type="text" class="form-control" id="nombre" name="nombreCompleto" value="<?php echo $nombreCompleto;?>">
             </div>
 
-            <div class="mb-3">
-                <label for="paterno" class="form-label">Apellido Paterno:</label>
-                <input type="text" class="form-control" id="paterno" name="paterno" value="<?php echo $paterno;?>">
             </div>
         </div>
+            
+        </div>
+        
         
 
 
