@@ -49,7 +49,7 @@ $resultado = mysqli_query($con, $sql);
   <link href="./css/bootstrap.min.css" rel="stylesheet" />
 </head>
 
-<body>
+<body style="background-color:#9FA8DA!important;">
   <div class="w-100 bg-dark mb-5">
     <center>
       <h1 class="text-white fs-1 p-5"> Bienvenido: <span class="text-primary text-uppercase fw-bold"><?php echo $usuario; ?> </span></h1>
@@ -59,7 +59,7 @@ $resultado = mysqli_query($con, $sql);
 
   <div class="container">
     <div class="card">
-      <div class="card-header bg-primary text-white">
+      <div class="card-header text-white" style="background-color:#052453!important;">
         <center>
           <h1 class="p-3 mt-3 fw-bold">Seguimiento Tramite</h1>
           <hr>
@@ -67,7 +67,7 @@ $resultado = mysqli_query($con, $sql);
       </div>
       <div class="card-body p-0">
 
-        <table class="table table-secondary table-striped">
+        <table class="table table-secondary table-striped mb-0">
           <tr>
             <td class="fw-bold">Flujo</td>
             <td class="fw-bold">Proceso</td>
@@ -93,7 +93,7 @@ $resultado = mysqli_query($con, $sql);
             echo "<td>" . $fila["FechaInicio"] . "</td>";
             echo "<td>" . $fila["FechaFin"] . "</td>";
             echo "<td>" . $fila["Usuario"] . "</td>";
-            echo "<td><a class='btn btn-danger' href='flujo.php?flujo=" . $fila["Flujo"] . "&proceso=" . $fila["Proceso"] . "&nro_tramite=" . $fila["Nro_tramite"] . "&usuario=" . $fila["Usuario"] . "'>Ir</td>";
+            echo "<td><a class='btn btn-dark' href='flujo.php?flujo=" . $fila["Flujo"] . "&proceso=" . $fila["Proceso"] . "&nro_tramite=" . $fila["Nro_tramite"] . "&usuario=" . $fila["Usuario"] . "'>Ir</td>";
             echo "</tr>";
           }
           ?>
@@ -107,7 +107,7 @@ $resultado = mysqli_query($con, $sql);
           if ($rol == "Cliente") {
           ?>
             <div class="dropdown">
-              <a class="btn btn-danger dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="btn btn-dark dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Nuevo Tramite
               </a>
 

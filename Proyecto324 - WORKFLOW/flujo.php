@@ -36,12 +36,61 @@ $cantidad = $fila2["cantidad"];
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Tramites</title>
 	<link href="./css/bootstrap.min.css" rel="stylesheet" />
+	<link href="./css/style.css" rel="stylesheet" />
 </head>
 
 <body>
-
+<div class="snowflake"></div>
+  <div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div></div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div><div class="snowflake">
+  </div>
 	<form method="GET" action="motor.php">
-		<center>
+		<center class="" style="z-index:99;">
 			<?php
 
 				//include $pantalla . ".inc.php";
@@ -58,25 +107,25 @@ $cantidad = $fila2["cantidad"];
 
 				include $pantalla . ".inc.php";
 				if ($tipo == "C") { ?>
-					<input type="submit" class="btn btn-danger mt-4" value="No" name="No" />
-					<input type="submit" class="btn btn-success mt-4" value="Si" name="Si" />
+					<input type="submit" class="btn btn-success mt-4 fw-bold" value="No" name="No" />
+					<input type="submit" class="btn btn-secondary mt-4 fw-bold" value="Si" name="Si" />
 				<?php } else if ($tipo == "F") { ?>
-					<input type="submit" class="btn btn-secondary mt-4" value="Anterior" disabled="disabled" name="Anterior" />
-					<input type="submit" class="btn btn-danger mt-4" value="Siguiente" name="SiguienteF" />
+					<input type="submit" class="btn btn-secondary mt-4 fw-bold" value="Anterior" disabled="disabled" name="Anterior" />
+					<input type="submit" class="btn btn-success mt-4 fw-bold" value="Siguiente" name="SiguienteF" />
 				<?php } else {
 				?>
 					<?php
 					if ($cantidad < 1) {
 					?>
-						<input type="submit" class="btn btn-secondary mt-4" value="Anterior" name="Anterior" />
+						<input type="submit" class="btn btn-secondary mt-4 fw-bold" value="Anterior" name="Anterior" />
 					<?php
 					} else {
 					?>
-						<input type="submit" class="btn btn-secondary mt-4" value="Anterior" disabled="disabled" name="Anterior" />
+						<input type="submit" class="btn btn-secondary mt-4 fw-bold" value="Anterior" disabled="disabled" name="Anterior" />
 					<?php
 					}
 					?>
-					<input type="submit" class="btn btn-danger mt-4" value="Siguiente" name="Siguiente" />
+					<input type="submit" class="btn btn-success mt-4 fw-bold" value="Siguiente" name="Siguiente" />
 					
 
 				<?php
@@ -96,7 +145,7 @@ $cantidad = $fila2["cantidad"];
 			echo "<br>";
 			?>
 			
-			<input type="submit" class="btn btn-dark mt-4" value="Ir a Inicio" name="inicio" /><div>
+			<input type="submit" class="btn btn-warning my-4 fw-bold" value="Ir a Inicio" name="inicio" /><div>
 		</center>
 
 	</form>

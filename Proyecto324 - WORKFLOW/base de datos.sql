@@ -114,7 +114,7 @@ CREATE TABLE Cliente(
     primary key(usuario)
 );
 
-
+INSERT INTO Cliente VALUES('cliente1', 8441659, "Enrique Luis Barra Paredes", 'Av. Murillo 1523', 'cliente1@gmail.com', 1251362, '2001-03-05 00:00:00');
 INSERT INTO Cliente VALUES('cliente3', 4561333, "Ana ALuisa Romero Linares", 'Nevada St 123', 'example@gmail.com', 69712345, '2000-10-18 00:00:00');
 INSERT INTO Cliente VALUES('analistaB', 4561333, "Jorge Ariel Rosa Humiri", 'Los Robles Calle 123', 'example1@gmail.com', 6970124, '2000-10-18 00:00:00');
 
